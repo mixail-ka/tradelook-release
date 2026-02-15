@@ -898,6 +898,12 @@
   }
 }
 @layer theme;
+@layer base {
+  * {
+    scrollbar-color: initial;
+    scrollbar-width: initial;
+  }
+}
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
